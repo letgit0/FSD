@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: 400px 100px 150px; */
+    grid-template-rows: auto;
+
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.innerbox{
+   height:100px;
+   width: 100px;
+  margin:10px;
+}
+.uppertext{
+    font:bold;
+    background-color: rgb(173, 83, 123);
+    padding: 10px;
+}
+.upperbox{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    background-color: rgb(203, 109, 167);
+}
+.img-text{
+    background-color: rgb(184, 105, 128);
+}
+.box1{
+    background-color: rgb(147, 94, 128);
+margin: 2px;
+}
+.box2{
+    background-color: rgb(149, 78, 118);
+margin: 2px;
+}
+.box3{
+    background-color: rgb(139, 78, 95);
+    margin: 2px;
+}
+.box4{
+    background-color:rgb(167, 88, 142) ;
+  margin: 2px;
+
+}

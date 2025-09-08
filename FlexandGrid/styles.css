@@ -1,0 +1,24 @@
+.container{
+    display: flex;   
+    border:1px solid red;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: centera;
+}
+.child1{
+   border:1px dotted red;
+
+}
+.child2{
+   border : 1 px dotted green;
+}
+.child3{
+    background-color: green;
+   border : 1 px dotted green;
+
+}
+.child4{
+    background-color: yellow;
+      border : 1 px dotted green;
+
+}

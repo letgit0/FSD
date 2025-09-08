@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+}
+h1,h2,h3{ 
+    /* group selector */
+    color: red;
+}
+#headingfirst{
+    /* id selector */
+    color: green;
+}
+
+.headingfirst{
+    /* class selector */
+    color: orange;
+}
+div span{
+    /* descendant selector */
+    color: purple;
+}
+div>p{
+    /* child selector */
+    color: brown;
+}
+div+p{
+    /* adjacent sibling selector */
+    color: pink;
+}
+div~p{
+    /* general sibling selector */
+    color: yellow;
+}
+p:nth-child(2){
+    /* pseudo class selector */ 
+    /* jha pr p apne parent ka second child ho  dom tree*/
+    color: grey;
+}
+div p:nth-of-type(1){
+    /* pseudo class selector */
+    color: black;
+}
