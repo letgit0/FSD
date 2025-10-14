@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function display() {
+      const myName=document.getElementById('myName').value;
+      // alert(myName);
+      document.getElementById('data').innerHTML=`<h2>${myName}</h2>`;
+    }
+    function render(){
+      const a= document.getElementById('a').value;
+      const b=document.getElementById('b').value;
+      const c=document.getElementById('c').value;
+      const d=document.getElementById('d').value;
+
+     document.getElementById('renderedData').innerHTML=`
+     <div style="background-color: gray;">
+      <h2 style="color: pink"> Input Data </h2> <hr>
+       <p> Name of the student ${a} </p> <hr>
+       <p> Branch of the student ${b} </p> <hr>
+       <p> Skills are ${c} </p> <hr>
+       <p> College is ${d} </p> <hr>
+       </div>
+     `;
+    }
+  </script>
+</head>
+<body>
+  <!-- <form action="">
+    <label>
+      Enter name:
+    </label>
+    <input type="text" id="myName">
+    <button onclick="display()">Display</button>
+  </form>
+  <div id="data"></div> -->
+ 
+    <!-- <label for="">Enter name:</label>
+    <input type="text" id="a"> <br>
+    <label for="">Enter branch:</label>
+    <input type="text" id="b"> <br>
+    <label for="">Enter Skills:</label>
+    <input type="text" id="c"> <br>
+    <label for="">Enter University:</label>
+    <input type="text" id="d"> <br>
+    <button onclick="render()">render</button>
+  </form>
+  <div id="renderedData"></div> -->
+</body>
+</html>
